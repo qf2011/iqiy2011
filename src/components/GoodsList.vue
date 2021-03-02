@@ -2,6 +2,8 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     我是goodslist1<br/>
+    我是goodslist2<br/>
+    我是goodslist3：{{str}}<br/>
   </div>
 </template>
 
@@ -9,7 +11,8 @@
 export default {
   name: 'GoodsList',
   props: {
-    msg: String
+    msg: String,
+    str:"郝刚"
   }
 }
 </script>
